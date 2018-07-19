@@ -1,0 +1,26 @@
+{
+  "inputs": [
+    {
+      "id": "DataObject_0h3a3ff",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "URL to download the archive with the SAR scene and input and settings description files",
+      "name": "Input data",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "SARWIND_LGMod_v401a_fmr/InData.zip"
+ }
+  ],
+  "outputs": [
+    {
+      "id": "DataObject_0n95v5p",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "S2A png",
+      "name": "S2A png",
+      "valueSchema": "url",
+      "target": "data/s2.png"
+ }
+  ]
+}

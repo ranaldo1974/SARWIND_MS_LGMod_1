@@ -1,0 +1,16 @@
+{
+  "image": "atom93/docker-sarwind",
+  "resources": {
+    "memory_mb": "16000",
+    "cpu_units": ""
+ },
+  "container": {
+    "entryPoint": [
+      "/bin/bash",
+      "-c"
+ ],
+    "command": [
+      "cd /SARWIND_LGMod && chmod 764 ./run.sh && ./run.sh"
+ ]
+  }
+}
