@@ -9,7 +9,7 @@
       "obligation": true,
       "hasDefault": false,
       "valueSchema": "url",
-      "target": "SARWIND_LGMod_v401a_fmr/InData.zip"
+      "target": "/InData.zip"
  }
   ],
   "outputs": [
@@ -17,10 +17,10 @@
       "id": "DataObject_0n95v5p",
       "outputType": "individual",
       "valueType": "value",
-      "description": "S2A png",
-      "name": "S2A png",
+      "description": "Output archive",
+      "name": "OutData.zip",
       "valueSchema": "url",
-      "target": "data/s2.png"
+      "target": "/OutData.zip"
  }
   ]
 }
