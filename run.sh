@@ -1,7 +1,7 @@
 echo ""
 echo "CONTENT OF THE FOLDER"
-ls -a /SARWIND_LGMod
-echo ""
+ls -a .
+echo "\n"
 unzip ./InData.zip -d /SARWIND_LGMod
 if [ -f /tmp/.X1-lock ]; then
     rm -f /tmp/.X1-lock
