@@ -10,7 +10,7 @@
       "-c"
  ],
     "command": [
-      "chmod 764 run.sh && run.sh"
+      "chmod 764 run.sh && ./run.sh"
  ]
   }
 }
