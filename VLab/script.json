@@ -2,17 +2,17 @@
   "scripts": [
     {
       "repoPath": "run.sh",
-      "targetPath": "/SARWIND_LGMod/run.sh",
+      "targetPath": "run.sh",
       "pathType": "FILE"
  	},
     {
       "repoPath": "run_SARWIND_LGMod_v401.sh",
-      "targetPath": "/SARWIND_LGMod/run_SARWIND_LGMod_v401.sh",
+      "targetPath": "run_SARWIND_LGMod_v401.sh",
       "pathType": "FILE"
  	},
 	{
       "repoPath": "SARWIND_LGMod_v401",
-      "targetPath": "/SARWIND_LGMod/SARWIND_LGMod_v401",
+      "targetPath": "SARWIND_LGMod_v401",
       "pathType": "FILE"
  	}
   ]

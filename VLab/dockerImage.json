@@ -10,7 +10,7 @@
       "-c"
  ],
     "command": [
-      "chmod 764 SARWIND_LGMod/run.sh && SARWIND_LGMod/run.sh"
+      "chmod 764 /run.sh && /run.sh"
  ]
   }
 }
