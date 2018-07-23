@@ -1,4 +1,5 @@
-unzip /InData.zip -d /SARWIND_LGMod
+ls -al .
+unzip ./InData.zip -d /SARWIND_LGMod
 if [ -f /tmp/.X1-lock ]; then
     rm -f /tmp/.X1-lock
 fi
