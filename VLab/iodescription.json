@@ -21,7 +21,7 @@
       "name": "OutData.zip",
       "valueSchema": "url",
       "target": "/OutData.zip"
-    }
+    },
 	{
       "id": "SARWIND_LGMod_Results",
       "outputType": "individual",
