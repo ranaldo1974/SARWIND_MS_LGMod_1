@@ -29,7 +29,7 @@
       "description": "Text file with results",
       "name": "Results.txt",
       "valueSchema": "url",
-      "target": "/Results.txt"
+      "target": "/SARWIND_LGMod_Results.txt"
     }
   ]
 }
