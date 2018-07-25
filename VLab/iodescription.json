@@ -10,17 +10,26 @@
       "hasDefault": false,
       "valueSchema": "url",
       "target": "/InData.zip"
- }
+    }
   ],
   "outputs": [
     {
-      "id": "DataObject_0n95v5p",
+      "id": "SARWIND_LGMod_OutputData",
       "outputType": "individual",
       "valueType": "value",
       "description": "Output archive",
       "name": "OutData.zip",
       "valueSchema": "url",
       "target": "/OutData.zip"
- }
+    }
+	{
+      "id": "SARWIND_LGMod_Results",
+      "outputType": "individual",
+      "valueType": "value",
+      "description": "Text file with results",
+      "name": "Results.txt",
+      "valueSchema": "url",
+      "target": "/Results.txt"
+    }
   ]
 }
