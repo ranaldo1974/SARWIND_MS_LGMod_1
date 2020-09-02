@@ -6,13 +6,13 @@
       "pathType": "FILE"
  	},
     {
-      "repoPath": "run_SARWIND_LGMod_v401.sh",
-      "targetPath": "run_SARWIND_LGMod_v401.sh",
+      "repoPath": "run_SARWIND_MS_LGMod.sh",
+      "targetPath": "run_SARWIND_MS_LGMod.sh",
       "pathType": "FILE"
  	},
 	{
-      "repoPath": "SARWIND_LGMod_v401",
-      "targetPath": "SARWIND_LGMod_v401",
+      "repoPath": "SARWIND_MS_LGMod",
+      "targetPath": "SARWIND_MS_LGMod",
       "pathType": "FILE"
  	}
   ]
