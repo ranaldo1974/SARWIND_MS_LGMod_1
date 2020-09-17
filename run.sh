@@ -21,7 +21,7 @@ zip -r OutData.zip OutData
 
 if [ -d ./OutData/*Multiscale* ] 
 then
-    find ./OutData/*Multiscale* -name *_Results.txt -exec cp {} ./SARWIND_LGMod_Results.txt
+    find ./OutData/*Multiscale* -name *_Results.txt -exec cp {} SARWIND_LGMod_Results.txt \;
 else
-    find ./OutData -name *_Results.txt -exec cp {} ./SARWIND_LGMod_Results.txt
+    find ./OutData -name *_Results.txt -exec cp {} SARWIND_LGMod_Results.txt \;
 fi
