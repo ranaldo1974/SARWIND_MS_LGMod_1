@@ -4,6 +4,7 @@ ls -a .
 echo "--------------------------------------------------------------"
 
 unzip ./InData.zip 
+unzip ./InIOInfoAndSettings.zip
 
 if [ -f /tmp/.X1-lock ]; then
     rm -f /tmp/.X1-lock
