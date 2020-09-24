@@ -16,7 +16,7 @@ fi
 vnc4server
 
 export DISPLAY=$HOSTNAME:1
-./run_SARWIND_MS_LGMod.sh /MCR_R2016b/v91 ./InData/SARWIND_IO_Info.txt ./InData/SARWIND_Settings.txt
+./run_SARWIND_MS_LGMod.sh /MCR_R2016b/v91 ./InIOInfoAndSettings/SARWIND_IO_Info.txt ./InIOInfoAndSettings/SARWIND_Settings.txt
 
 zip -r OutData.zip OutData
 
