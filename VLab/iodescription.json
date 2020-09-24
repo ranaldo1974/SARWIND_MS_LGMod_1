@@ -10,7 +10,7 @@
       "hasDefault": false,
       "valueSchema": "url",
       "target": "/InData.zip"
-    }
+    },
     {
       "id": "InIOInfoAndSettings",
       "inputType": "individual",
