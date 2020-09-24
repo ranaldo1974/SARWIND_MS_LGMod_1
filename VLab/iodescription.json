@@ -1,16 +1,27 @@
 {
   "inputs": [
     {
-      "id": "DataObject_0h3a3ff",
+      "id": "InData",
       "inputType": "individual",
       "valueType": "value",
-      "description": "URL to download the archive with the SAR scene and input and settings description files",
+      "description": "URL to download the archive containing the input SAR pre-processed .bin/.hdr images",
       "name": "Input data",
       "obligation": true,
       "hasDefault": false,
       "valueSchema": "url",
       "target": "/InData.zip"
     }
+    {
+      "id": "InIOInfoAndSettings",
+      "inputType": "individual",
+      "valueType": "value",
+      "description": "URL to download the archive containing the input IO info and settings .txt files",
+      "name": "Input IO info and settings",
+      "obligation": true,
+      "hasDefault": false,
+      "valueSchema": "url",
+      "target": "/InIOInfoAndSettings.zip"
+    }	  
   ],
   "outputs": [
     {
@@ -22,7 +33,7 @@
       "valueSchema": "url",
       "target": "/OutData.zip"
     },
-	{
+    {
       "id": "SARWIND_LGMod_Results",
       "outputType": "individual",
       "valueType": "value",
